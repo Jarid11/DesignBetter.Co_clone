@@ -1,0 +1,114 @@
+.backgroundImg {
+  background-image: url(https://files.slack.com/files-tmb/T039C2PUY-F9UGMEF9S-d12027f2e0/podcast-large_2x-1450x1112_1024.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.top-left-headerLogo {
+  width: 64px;
+  height: 64px;
+  margin-top: 20px;
+  color: #ffffff;
+  font-family: "aktiv-grotesk";
+}
+
+.header {
+  padding: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.subBtn {
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 50px;
+  background-color: #0828cc;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  font-family: "aktiv-grotesk";
+}
+
+.subBtn:hover {
+  background-color: #ffffff;
+  color: #0828cc;
+  font-family: "aktiv-grotesk";
+}
+
+.nav {
+  margin: auto;
+  margin-top: 20px;
+}
+
+a {
+  margin: 0 25px;
+  color: #ffffff;
+}
+
+.main-content {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content h1 {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.22;
+  letter-spacing: 2px;
+  font-family: "aktiv-grotesk";
+}
+
+.main-content p {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  width: 66.66%;
+  font-family: "aktiv-grotesk";
+}
+
+.main-content button {
+  height: 80px;
+  width: 200px;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 50px;
+  background-color: #0828cc;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  font-family: "aktiv-grotesk";
+  margin-top: 40px;
+}
+
+.main-content button:hover {
+  background-color: #ffffff;
+  color: #0828cc;
+  font-family: "aktiv-grotesk";
+}
+
+.footer {
+  padding: 60px;
+  display: flex;
+  flex-direction: row;
+  height: 20vh;
+  width: 100%;
+}
+
+.inv-text {
+  transform: rotate(-90deg);
+  color: #ffffff;
+}
+
+.scroll {
+  margin: auto;
+  color: #ffffff;
+}
+
+.social-media-icons {
+  transform: rotate(90deg);
+  margin-bottom: 30px;
+}
